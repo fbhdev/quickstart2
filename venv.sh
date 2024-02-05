@@ -14,5 +14,6 @@ echo '
   MONGO_URI=""
   DB_NAME=""
 '>>.env
+cd server || exit
 create_env
 cd ../ || exit

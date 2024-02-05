@@ -21,119 +21,197 @@ function make_documentation() {
 
 [ShadCN](https://ui.shadcn.com)
 
-Accordion
-npx shadcn-ui@latest add accordion
 
-Alert
-npx shadcn-ui@latest add alert
+- Accordion
 
-Alert Dialog
-npx shadcn-ui@latest add alert-dialog
+\`npx shadcn-ui@latest add accordion\`
 
-Aspect Ratio
-npx shadcn-ui@latest add aspect-ratio
 
-Badge
-npx shadcn-ui@latest add badge
+- Alert
 
-Calendar
-npx shadcn-ui@latest add calendar
+\`npx shadcn-ui@latest add alert\`
 
-Card
-npx shadcn-ui@latest add card
 
-Carousel
-npx shadcn-ui@latest add carousel
+- Alert Dialog
 
-Checkbox
-npx shadcn-ui@latest add checkbox
+\`npx shadcn-ui@latest add alert-dialog\`
 
-Collapsible
-npx shadcn-ui@latest add collapsible
 
-Command
-npx shadcn-ui@latest add command
+- Aspect Ratio
 
-Context Menu
-npx shadcn-ui@latest add context-menu
+\`npx shadcn-ui@latest add aspect-ratio\`
 
-Drawer
-npx shadcn-ui@latest add drawer
 
-Dropdown Menu
-npx shadcn-ui@latest add dropdown-menu
+- Badge
 
-Form
-npx shadcn-ui@latest add form
+\`npx shadcn-ui@latest add badge\`
 
-Hover Card
-npx shadcn-ui@latest add hover-card
 
-Input
-npx shadcn-ui@latest add input
+- Calendar
 
-Menubar
-npx shadcn-ui@latest add menubar
+\`npx shadcn-ui@latest add calendar\`
 
-Navigation Menu
-npx shadcn-ui@latest add navigation-menu
 
-Pagination
-npx shadcn-ui@latest add pagination
+- Card
 
-Popover
-npx shadcn-ui@latest add popover
+\`npx shadcn-ui@latest add card\`
 
-Progress
-npx shadcn-ui@latest add progress
 
-Radio Group
-npx shadcn-ui@latest add radio-group
+- Carousel
 
-Resizable
-npx shadcn-ui@latest add resizable
+\`npx shadcn-ui@latest add carousel\`
 
-Scroll Area
-npx shadcn-ui@latest add scroll-area
 
-Select
-npx shadcn-ui@latest add select
+- Checkbox
 
-Separator
-npx shadcn-ui@latest add separator
+\`npx shadcn-ui@latest add checkbox\`
 
-Sheet
-npx shadcn-ui@latest add sheet
 
-Skeleton
-npx shadcn-ui@latest add skeleton
+- Collapsible
 
-Slider
-npx shadcn-ui@latest add slider
+\`npx shadcn-ui@latest add collapsible\`
 
-Switch
-npx shadcn-ui@latest add switch
 
-Table
-npx shadcn-ui@latest add table
+- Command
 
-Tabs
-npx shadcn-ui@latest add tabs
+\`npx shadcn-ui@latest add command\`
 
-Textarea
-npx shadcn-ui@latest add textarea
 
-Toast
-npx shadcn-ui@latest add toast
+- Context Menu
 
-Toggle
-npx shadcn-ui@latest add toggle
+\`npx shadcn-ui@latest add context-menu\`
 
-Toggle Group
-npx shadcn-ui@latest add toggle-group
 
-Tooltip
-npx shadcn-ui@latest add tooltip
+- Drawer
+
+\`npx shadcn-ui@latest add drawer\`
+
+
+- Dropdown Menu
+
+\`npx shadcn-ui@latest add dropdown-menu\`
+
+
+- Form
+
+\`npx shadcn-ui@latest add form\`
+
+
+- Hover Card
+
+\`npx shadcn-ui@latest add hover-card\`
+
+
+- Input
+
+\`npx shadcn-ui@latest add input\`
+
+
+- Menubar
+
+\`npx shadcn-ui@latest add menubar\`
+
+
+- Navigation Menu
+
+\`npx shadcn-ui@latest add navigation-menu\`
+
+
+- Pagination
+
+\`npx shadcn-ui@latest add pagination\`
+
+
+- Popover
+
+\`npx shadcn-ui@latest add popover\`
+
+
+- Progress
+
+\`npx shadcn-ui@latest add progress\`
+
+
+- Radio Group
+
+\`npx shadcn-ui@latest add radio-group\`
+
+
+- Resizable
+
+\`npx shadcn-ui@latest add resizable\`
+
+
+- Scroll Area
+
+\`npx shadcn-ui@latest add scroll-area\`
+
+
+- Select
+
+\`npx shadcn-ui@latest add select\`
+
+
+- Separator
+
+\`npx shadcn-ui@latest add separator\`
+
+
+- Sheet
+
+\`npx shadcn-ui@latest add sheet\`
+
+
+- Skeleton
+
+\`npx shadcn-ui@latest add skeleton\`
+
+
+- Slider
+
+\`npx shadcn-ui@latest add slider\`
+
+
+- Switch
+
+\`npx shadcn-ui@latest add switch\`
+
+
+- Table
+
+\`npx shadcn-ui@latest add table\`
+
+
+- Tabs
+
+\`npx shadcn-ui@latest add tabs\`
+
+
+- Textarea
+
+\`npx shadcn-ui@latest add textarea\`
+
+
+- Toast
+
+\`npx shadcn-ui@latest add toast\`
+
+
+- Toggle
+
+\`npx shadcn-ui@latest add toggle\`
+
+
+- Toggle Group
+
+\`npx shadcn-ui@latest add toggle-group\`
+
+
+- Tooltip
+
+\`npx shadcn-ui@latest add tooltip\`
+
+
 
 '>>documentation.md
 }
