@@ -18,5 +18,9 @@ function resolve_config() {
 cd client || exit
 npm i -D @types/node
 resolve_config
+echo 'Yes for TypeScript'
+echo 'tailwind.config.js is your Tailwind Config File.'
+echo 'src/index.css is your default CSS path.'
+echo 'You can skip everything else'
 npx shadcn-ui@latest init
 cd ../ || exit
