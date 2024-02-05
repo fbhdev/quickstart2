@@ -15,6 +15,8 @@ function make_documentation() {
 
 [FontAwesome](https://fontawesome.com)
 
+[Google Fonts](https://fonts.google.com)
+
 [MongoDB](https://www.mongodb.com)
 
 [FastAPI](https://fastapi.tiangolo.com)

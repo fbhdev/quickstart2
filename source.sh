@@ -33,7 +33,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLDivElement).render(
 function create_model {
   echo "
 const enum Common {
-  PARENT = ''
+  PARENT = 'h-screen w-screen max-w-screen max-h-screen bg-slate-200 text-slate-950 flex items-center justify-center gap-3 text-3xl'
 }
 
 export const enum Mobile {
@@ -50,6 +50,8 @@ function create_app {
 import {Mobile, Desktop} from "./app.model.tsx";
 import useMobile from "./hooks/useMobile.ts";
 import { MobileContext } from "./context/mobile/mobile.context.tsx";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faCheck} from "@fortawesome/free-solid-svg-icons";
 
 export const App = function (props: any) {
 
@@ -58,6 +60,8 @@ export const App = function (props: any) {
   return (
     <MobileContext.Provider value={{mobile}}>
       <div className={mobile ? Mobile.PARENT : Desktop.PARENT}>
+        <span>Success</span>
+        <FontAwesomeIcon icon={faCheck}/>
       </div>
     </MobileContext.Provider>
   );
