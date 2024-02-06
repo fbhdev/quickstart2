@@ -9,11 +9,11 @@ function install_dependencies {
 
 
 mkdir server
+cd server || exit
 touch .env
 echo '
   MONGO_URI=""
   DB_NAME=""
 '>>.env
-cd server || exit
 create_env
 cd ../ || exit
