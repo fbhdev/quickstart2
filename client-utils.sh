@@ -59,19 +59,20 @@ function create_animate {
   touch animate.ts
   echo '
 export const Initial = {
-  OPACITY = {opacity: 0}
+  OPACITY: {opacity: 0}
 }
 
 export const Animate = {
-  OPACITY = {opacity: 1}
+  OPACITY: {opacity: 1}
 }
 
 export const Exit = {
-  OPACITY = {opacity: 0}
+  OPACITY: {opacity: 0}
 }
 
 export const Transition = {
-  DEFAULT = {duration: 0.2, ease: "easeInOut"}
+  SHORT: {duration: 0.125, ease: "easeInOut"},
+  DEFAULT: {duration: 0.5, ease: "easeInOut"},
 }
 '>>animate.ts
 }
@@ -230,15 +231,15 @@ function install_dependencies() {
 }
 
 function create_files {
-  touch icon.component.tsx icon.model.tsx icon.constants.tsx
+  touch icons.component.tsx icons.model.tsx icons.constants.tsx
 }
 
 function create_constants {
   echo '
 import {IconDefinition} from "@fortawesome/pro-light-svg-icons";
 
-export const Icon = {} as Record<icon, IconDefinition>;
-  '>>icon.constants.tsx
+export const Icon = {} as Record<string, IconDefinition>;
+  '>>icons.constants.tsx
 }
 
 cd client/src/utils || exit
