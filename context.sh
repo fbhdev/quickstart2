@@ -12,7 +12,7 @@ function modal_context {
 import {createContext} from "react";
 
 export interface ModalContextInterface {}
-export const MobileContext = createContext<ModalContextInterface>({});
+export const ModalContext = createContext<ModalContextInterface>({});
 '>>modal.context.tsx
   cd ../ || exit
 }
