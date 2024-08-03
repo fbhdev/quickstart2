@@ -2,7 +2,6 @@ bash venv.sh
 bash resource.sh
 bash process.sh
 bash database.sh
-bash resource.sh
 bash server-utils.sh
 bash template.sh
 bash models.sh
